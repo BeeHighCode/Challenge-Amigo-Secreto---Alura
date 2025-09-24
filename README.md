@@ -5,12 +5,23 @@ Bienvenido(a) a la web del ¡Challenge - Amigo Secreto!
 
 Esta web permite realizar de manera sencilla, rápida y divertida un sorteo a partir de una lista con el nombre de tus mejores amigos.
 
+# Instalación 
+
+1. Descarga o clona el respositorio
+
+ gh repo clone BeeHighCode/Challenge-Amigo-Secreto---Alura <link>
+
 # 👀 ¿Cómo funciona?
 Escribe el nombre de un amigo en el campo de texto.
+
 Haz clic en el botón "Añadir".
+
 Repite el paso 1 y 2 hasta haber agregado los nombres de tus amigos.
+
 Cuando tengas todos los nombres haz clic en el botón "Sortear amigo".
+
 Visualiza el resultado en pantalla.
+
 Sí gustas reiniciar el programa solo debes dar en "reiniciar" y listo podras empezar de nuevo.
 
 # 📌 Puntos a tener en cuenta para el correcto funcionamiento
