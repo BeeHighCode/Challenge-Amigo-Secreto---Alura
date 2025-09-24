@@ -1,0 +1,222 @@
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #A5CC82;
+    --color-button: #A5CC82;
+    --color-button-hover: #87ff1e;
+    --color-text: #000000;
+    --color-white: #FFFFFF;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #00467F;  /* fallback for old browsers */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background: #00467F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 3px solid #000;
+    border-radius: 70px 70px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Merriweather", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botón */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #7bff07;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.button-add:hover {
+    background-color: #87ff1e;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #7bff07;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botón de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    border: 2px solid #7bff07;
+    width: 100%;
+    padding: 10px 40px;
+    color: #000;
+    background-color: var(--color-button);
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: background 0.2s;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;   
+    
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.list-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    background: #A5CC82;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin: 20px 20px;
+    padding: 10px 15px;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.name-list {
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #000000  
+}
+
+.button-reset {
+
+    align-items: center;
+    background: #ffc4c4;
+    color: #333;
+    border: 2px solid #ff7b7b;
+    border-radius: 25px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.13);
+    border-radius: 25px;
+    transition: background 0.2s;
+    width: 100%;
+}
+.button-reset:hover {
+    background: #ff7b7b;
+    color: #fff;
+}
