@@ -21,7 +21,7 @@ Debes agregar los nombres de tus amigos, de lo contrario, la web no te permitir�
 
 Si tratas de ingresar un nombre que contenga números o caracteres especiales la web lanzará una alerta con el siguiente mensaje: Por favor, ingrese un nombre válido.
 
-# *💻 Tecnologías utilizadas*
+# 💻 Tecnologías utilizadas
 - HTML5
 - CSS3
 - JavaScript
