@@ -19,3 +19,12 @@ Si presionas el botón "Añadir", pero no has escrito nada en el campo de texto,
 Debes agregar el nombre de cinco personas, de lo contrario, la web no te permitirá realizar el sorteo.
 
 Si tratas de ingresar un nombre que contenga números o caracteres especiales la web lanzará una alerta con el siguiente mensaje: Por favor, ingrese un nombre válido.
+
+**💻 Tecnologías utilizadas**
+- HTML5
+- CSS3
+- JavaScript
+
+📝 Mejoras futuras 📝
+Opción para eliminar un nombre de la lista.
+Permitir que el usuario pueda elegir la cantidad de amigos que desea escribir, siempre y cuando dicha cantidad encuentre dentro de un rango permitido.
