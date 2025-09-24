@@ -21,6 +21,29 @@ Debes agregar los nombres de tus amigos, de lo contrario, la web no te permitir�
 
 Si tratas de ingresar un nombre que contenga números o caracteres especiales la web lanzará una alerta con el siguiente mensaje: Por favor, ingrese un nombre válido.
 
+# 📷 Vista previa de la web 📷
+
+#Pantalla de inicio
+
+<img width="1915" height="920" alt="image" src="https://github.com/user-attachments/assets/77525db9-a1da-425a-a9f1-01a0ba2f4fe3" />
+
+#Agregando la lista de amigos
+
+<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/8c0e897d-e31a-4600-8301-082a77943f4d" />
+
+#Resultado del sorteo
+
+<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/0c622a99-bd70-49ec-9c68-52b5b7e5dff8" />
+
+#Mensaje al no introducir nombres de amigos
+
+<img width="606" height="158" alt="image" src="https://github.com/user-attachments/assets/a13bec7f-8d4f-4590-a3bb-4a1e1cf0f518" />
+
+#Finalmente dando en el boton extra de reiniciar para emepezar de nuevo
+
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/e48d745c-0673-4059-a93a-ff3538e22baa" />
+
+
 # 💻 Tecnologías utilizadas
 - HTML5
 - CSS3
@@ -28,5 +51,5 @@ Si tratas de ingresar un nombre que contenga números o caracteres especiales la
 
 # 📝 Mejoras futuras 📝
 
-Opción para eliminar un nombre de la lista.
-Permitir que el usuario pueda elegir la cantidad de amigos que desea escribir, siempre y cuando dicha cantidad encuentre dentro de un rango permitido.
+- Opción para eliminar un nombre de la lista.
+- Permitir que el usuario pueda elegir la cantidad de amigos que desea escribir, siempre y cuando dicha cantidad encuentre dentro de un rango permitido.
