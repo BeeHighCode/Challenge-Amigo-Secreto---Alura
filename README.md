@@ -11,6 +11,8 @@ Esta web permite realizar de manera sencilla, rápida y divertida un sorteo a pa
 
  gh repo clone BeeHighCode/Challenge-Amigo-Secreto---Alura <link>
 
+2. O prueba directamente entrando a este link https://challenge-amigo-secreto-alura-drab.vercel.app
+
 # 👀 ¿Cómo funciona?
 Escribe el nombre de un amigo en el campo de texto.
 
